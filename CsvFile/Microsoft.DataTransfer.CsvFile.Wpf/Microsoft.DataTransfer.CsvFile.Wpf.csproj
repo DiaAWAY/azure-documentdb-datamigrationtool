@@ -55,6 +55,15 @@
       <SubType>Code</SubType>
     </Compile>
     <AppDesigner Include="Properties\" />
+    <Compile Include="Sink\CsvFileSinkAdapterConfiguration.cs" />
+    <Compile Include="Sink\CsvFileSinkAdapterConfigurationPage.xaml.cs">
+      <DependentUpon>CsvFileSinkAdapterConfigurationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sink\CsvFileSinkAdapterConfigurationProvider.cs" />
+    <Compile Include="Sink\CsvFileSinkAdapterConfigurationSummaryPage.xaml.cs">
+      <DependentUpon>CsvFileSinkAdapterConfigurationSummaryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sink\CsvFileSinkAdapterInternalConfigurationProvider.cs" />
     <Compile Include="Source\CsvFileSourceAdapterConfiguration.cs" />
     <Compile Include="Source\CsvFileSourceAdapterConfigurationPage.xaml.cs">
       <DependentUpon>CsvFileSourceAdapterConfigurationPage.xaml</DependentUpon>
@@ -88,6 +97,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Sink\CsvFileSinkAdapterConfigurationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Sink\CsvFileSinkAdapterConfigurationSummaryPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Source\CsvFileSourceAdapterConfigurationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
