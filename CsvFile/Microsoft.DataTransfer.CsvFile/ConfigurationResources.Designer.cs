@@ -19,7 +19,7 @@ namespace Microsoft.DataTransfer.CsvFile {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class ConfigurationResources {
@@ -57,6 +57,24 @@ namespace Microsoft.DataTransfer.CsvFile {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value delimiter.
+        /// </summary>
+        public static string Sing_Delimiter {
+            get {
+                return ResourceManager.GetString("Sing_Delimiter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Optional. Write header row.
+        /// </summary>
+        public static string Sink_WriteHeader {
+            get {
+                return ResourceManager.GetString("Sink_WriteHeader", resourceCulture);
             }
         }
         

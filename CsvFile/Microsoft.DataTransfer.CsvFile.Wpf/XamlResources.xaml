@@ -6,7 +6,7 @@
     <ResourceDictionary Source="/Microsoft.DataTransfer.WpfHost.Basics;component/CommonStyles.xaml" />
   </ResourceDictionary.MergedDictionaries>
 
-  <!-- String resources -->
+  <!-- Source string resources -->
 
   <system:String x:Key="FilesSummaryKey">Files:</system:String>
   <system:String x:Key="OpenFilesFilterKey">CSV Files|*.csv|GZip Files|*.gz|All Files|*.*</system:String>
@@ -33,5 +33,22 @@
   <system:String x:Key="DecompressKey">Decompress data</system:String>
   <system:String x:Key="DecompressDescriptionKey">Data from the source files will be decompressed with GZip</system:String>
   <system:String x:Key="DecompressSummaryKey">Decompress data:</system:String>
+
+  <!-- Sink string resources -->
+    
+  <system:String x:Key="FileNameKey">File</system:String>
+  <system:String x:Key="FileNameSummaryKey">File:</system:String>
+
+  <system:String x:Key="SaveFileFilterKey">CSV Files|*.csv|All Files|*.*</system:String>
+  <system:String x:Key="SaveFileDefaultExtensionKey">*.json</system:String>
+
+  <system:String x:Key="OverwriteSummaryKey">Overwrite:</system:String>
+
+  <system:String x:Key="WriteHeaderKey">Write header row</system:String>
+  <system:String x:Key="WriteHeaderSummaryKey">Header row:</system:String>
+
+  <system:String x:Key="DelimiterKey">Delimiter</system:String>
+  <system:String x:Key="DelimiterDescriptionKey">The value to use as a field separator</system:String>
+  <system:String x:Key="DelimiterSummaryKey">Delimiter:</system:String>
 
 </ResourceDictionary>
